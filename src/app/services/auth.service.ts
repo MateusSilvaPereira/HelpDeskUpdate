@@ -32,7 +32,7 @@ export class AuthService {
     return false
   }
 
-  logout() {
+  logout(){
     localStorage.clear();
   }
 }
