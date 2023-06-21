@@ -21,4 +21,13 @@
     width: 100%;
     text-align: center;
   }
+
+  .edit {
+    color: rgb(55, 55, 212);
+  }
+
+  .delete {
+    color: rgb(236, 85, 85);
+  }
+
   

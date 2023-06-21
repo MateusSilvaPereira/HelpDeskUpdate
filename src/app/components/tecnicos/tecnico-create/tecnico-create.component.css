@@ -36,3 +36,11 @@ button {
  mat-icon {
     opacity: .8;
  }
+
+ .btn { 
+    background-color: rgb(16, 146, 96);;
+ }
+
+ .btn1{ 
+    background-color: rgb(201, 87, 87);;
+ }
