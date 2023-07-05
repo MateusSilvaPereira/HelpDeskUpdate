@@ -1,0 +1,46 @@
+.container{
+    width: 42%;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+}
+
+.full-width {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    height: 13rem;
+    margin-bottom: 0.1rem;
+}
+
+.status-prioridade {
+    display: flex;
+    justify-content: space-between;
+}
+
+.status-prioridade mat-form-field {
+    width: 44%;
+}
+
+.descricao {
+    min-height: 6rem;
+    max-height: 10rem;
+}
+
+.btn { 
+    background-color: rgb(201, 87, 87);;
+ }
+ 
+ .btn1{ 
+    background-color: rgb(16, 146, 96);;
+ }
+
+ button {
+    margin-bottom: .5rem;
+ }
