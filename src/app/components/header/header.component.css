@@ -2,6 +2,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(127, 123, 202) 0%, rgb(161, 161, 204) 0%, rgb(119, 220, 240) 100%);
+    border: none;
 }
 
 h1 {
@@ -12,3 +16,23 @@ h1 {
     border-radius: 2rem;
     border: none;
 }
+
+
+img {
+    height: 1.1rem;
+    width: 1.3rem;
+}
+
+.mat-card {
+    margin-top: 0rem;
+}
+button {
+    text-align: left;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
