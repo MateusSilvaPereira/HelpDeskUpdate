@@ -11,9 +11,8 @@
   }
 
 img {
-    height:20rem;
+    height:13rem;
     width: 55rem;
-    margin-left: 2rem;
 }
 
 
@@ -30,6 +29,7 @@ img {
 /* Footer */
 
 #footer {
+    margin-top: 5rem;
     background: linear-gradient(90deg, rgb(117, 112, 207) 0%, rgb(102, 102, 143) 0%, rgb(19, 180, 212) 100%);
     color: #ddebf3;
     padding: 80px 0;

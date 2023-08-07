@@ -1,6 +1,6 @@
   <div class="container">
 
-    <h1> <i class="material-icons icon">receipt_long</i> Listando Chamados</h1>
+    <h1> <i class="material-icons" style="color: rgb(63, 61, 61);">perm_phone_msg</i> Listando Chamados</h1>
     <button routerLink="create" class="mat-elevation-z8" mat-flat-button color="primary"><i class="material-icons ">add</i> Novo Chamado</button>
   
     <mat-form-field>
@@ -62,7 +62,7 @@
               <a routerLink="update/{{ element.id }}">
                 <i class="material-icons edit">edit_note</i>
               </a>
-              <a routerLink="">
+              <a routerLink="read/{{element.id}}">
                 <i class="material-icons delete">visibility</i>
               </a>
             </td>
