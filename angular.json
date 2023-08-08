@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "c781d43b-936c-4bf1-9345-8620b432e2ed"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -43,9 +46,7 @@
             "outputPath": "dist/helpdesk",
             "index": "src/index.html",
             "main": "src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+           
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
