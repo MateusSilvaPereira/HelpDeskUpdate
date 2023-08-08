@@ -25,7 +25,8 @@ import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-
+import 'zone.js';
+import 'zone.js/dist/long-stack-trace-zone.js';
 // componentes do projeto
 import { NavComponent } from './components/nav/nav.component';
 import { HomeComponent } from './components/home/home.component';
